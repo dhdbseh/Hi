@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="회원가입"
+        android:textSize="30dp"
+        />
+
+    <
+
+    <View
+        android:background="#00ff00"
+        android:layout_width="4000dp"
+        android:layout_height="6dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:id = "@+id/imageView"
+        android:layout_centerVertical = "true"
+        android:layout_centerHorizontal = "true"
+        android:src = "@drawable/로고22"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="모션 탭에 오신걸 환영합니다."
+        android:textSize="20dp"
+        />
+
+
+    <LinearLayout
+
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="개인"
+            android:textSize="20dp"
+            android:contextClickable="true"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/back"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="단체"
+            android:textSize="20dp"
+            android:contextClickable="true"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/back" />
+    </LinearLayout>
+
+    <EditText
+        android:id=""
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="*담당자 성함"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id=""
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="*체중"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:text="*지역"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id=""
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="ex)인천시,동구,송림동"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:hint="찾아보기"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:text="전화번호"
+        android:textSize="20dp"
+        />
+
+
+
+
+</LinearLayout>
